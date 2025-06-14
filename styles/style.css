@@ -1,5 +1,246 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+html {
+  block-size: 100%; 
+}
+
 .page {
+  display: flex; 
+  align-items: center; 
+  block-size: 100%; 
+  gap: 20px;
+  font-family: var(--font-family);
+  background-color: #000028;
+  color: #F1B2CE;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+
+/*HEADER*/
+.header {
+  background-image: url("../images/cover-image-dark.png");
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.decorated-zone{
+  display: grid;
+  grid-template-rows: 3;
+  max-width: 668px;
+}
+
+.h1_title {
+  display: grid;
+  grid-row: 2;
+  font-size: 116px;
+  font-family: 'IBM Plex Mono';
+  color: #DB00FF;
+  text-shadow: 2px 2px 0 #FF0070;
+  text-wrap: wrap;
+  line-height: 0.9;
+  
+}
+
+.p_theme {
+  display: grid;
+  grid-row: 3;
+  box-sizing: content-box;
+  margin-bottom: 58px;
+  margin-top: 58px;
+}
+
+.header__theme-menu {
+  display: grid;
+  grid-column: 1;
+  justify-self: end;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  gap: 10px;
+}
+
+/*BUTTON*/
+
+button,
+a {
+  color: #FF0070;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px;
+  padding: ;
+}
+
+button:hover,
+a {
+  color: #FF0070;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button:focus,
+a {
+  color: #FF0070;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+}
+
+/*MAIN*/
+
+.main {
+  display: grid;
+  margin-block: 40px;
+  padding-inline: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  row-gap: 50px;
+}
+
+.topic {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.p_in_pink {
+  display: grid;
+  grid-column: 1 / 4;
+  font-size: 18px;
+  font-family: 'IBM Plex Mono';
+  background-color: #FF0070;
+  color: #000028;
+}
+
+.p_questions {
+  display: grid;
+  grid-column: 1 / 4;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'IBM Plex Mono';
+  color:#FF0070;
+}
+
+.p_bold {
+  display: grid;
+  grid-column: 1 / 4;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'IBM Plex Mono';
+}
+
+.p_information {
+  display: grid;
+  grid-column: 1 / 4;
+  font-size: 18px;
+  font-family: 'IBM Plex Mono';
+  color: #F1B2CE;
+
+}
+
+.p_link {
+  display: grid;
+  grid-column: 1 / 4;
+  color: #F1B2CE;
+  text-shadow: 2px 2px 0 #FF0070;
+  text-decoration: none;
+}
+
+.images {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+
+.footer {
+  box-sizing: 668px;
+}
+.footer_h1 {
+  font-size: 116px;
+  font-family: 'IBM Plex Mono';
+  color: #DB00FF;
+  text-shadow: 2px 2px 0 #FF0070;
+  justify-self: center;
+  align-self: center;
+}
+
+/*@MEDIA*/
+/* 16*9 iphone 11 portrait*/
+
+@media (width >= 375px) {
+  .page {
+    display: grid;
+    grid-row: 3;
+    grid-column: 2;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  
+  .h1_title {
+    text-wrap: wrap;
+  }
+
+  .header, .decorated-zone {
+    grid-template-rows: 2;
+    grid-template-columns: 1 / 2;
+  }
+  button,
+  a {
+    grid-template-rows: 1;
+    grid-template-columns: 2;
+    align-items: end;
+  }
+}
+
+
+
+/* 3*4 ipad min portrait*/
+
+@media (width >= 768px) {
+  .page {
+    display: grid;
+    grid-row: 3;
+    grid-column: 4;
+    gap: 10px;
+    padding: 20px;
+  }
+ 
+  .p_in_pink, .p_bold {
+    grid-column: 2 / 3;
+  }
+
+  .main {
+    margin-block: 60px;
+    padding-inline: 20px;
+    row-gap: 80px;
+  }
+  
+  .topic {
+    grid-template-columns: 1fr 2fr;
+  }
+
+}
+
+
+
+/* 4*3 ipad min landscape*/
+
+@media (width >= 1024px) {
+  .page {
+
+  }
+ 
+  .header, .decorated-zone {
+
+  }
 }
