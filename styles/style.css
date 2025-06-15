@@ -1,14 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-html {
-  block-size: 100%; 
-}
+
 
 .page {
-  display: flex; 
+  display: grid; 
   align-items: center; 
   block-size: 100%; 
-  gap: 20px;
   font-family: var(--font-family);
   background-color: #000028;
   color: #F1B2CE;
@@ -19,8 +16,6 @@ html {
 .header {
   display: grid;
   background-image: url("../images/cover-image-dark.png");
-  height: 668px;
-  padding: 10px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
