@@ -4,13 +4,13 @@
 
 .page {
   align-items: center;
-  block-size: 100%;  
+  block-size: 100%;
   font-family: var(--font-family);
   background-color: #000028;
   color: #F1B2CE;
   margin: 0px;
   padding: 10px;
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -98,7 +98,6 @@ a {
 
 button:hover,
 a {
-  border: 1px;
   color: #FF0070;
   font-size: inherit;
   line-height: inherit;
@@ -197,7 +196,6 @@ a {
 .footer {
   display: grid;
   height: 100vh;
-  height: 668px;
   grid-row: 3;
 }
 .footer_h1 {
