@@ -74,7 +74,7 @@
 button,
 a {
   width: 70px;
-  color: var(--header-colour-decor);
+  color: var(--button-color);
   font-size: inherit;
   line-height: inherit;
   font-family: 'IBM Plex Mono';
@@ -86,27 +86,27 @@ a {
 /*button:active*/
 
 .header__theme-menu-button_active {
-  color: var(--pink-color);
+  color: var(--button-color);
   font-size: inherit;
   line-height: inherit;
   font-family: 'IBM Plex Mono';
-  border: 1px solid var(--header-colour-decor);
+  border: 1px solid var(--button-color);
   background-color: transparent;
 }
 
 button:hover,
 a {
-  color: var(--pink-color);
+  color: var(--button-color);
   font-size: inherit;
   line-height: inherit;
   font-family: 'IBM Plex Mono';
   background-color: transparent;
-  border: 1px solid var(--header-colour-decor);
+  border: 1px solid var(--button-color);
 }
 
 button:focus,
 a {
-  color: var(--header-colour-decor);
+  color: var(--button-color);
   font-size: inherit;
   line-height: inherit;
   text-decoration: underline;
@@ -396,4 +396,12 @@ a {
   .footer_h1 {
     font-size: 157px;
   }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -158px;
+    margin-right: 397px;
+}
 }
