@@ -187,6 +187,29 @@ a {
   border: none;
 }
 
+.p_link:hover {
+  display: grid;
+  grid-column: 1 / 4;
+  color: var(--text-color);
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+  font-family: 'IBM Plex Mono';
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.p_link:focus {
+  display: grid;
+  grid-column: 1 / 4;
+  color: var(--text-color);
+  font-size: inherit;
+  line-height: inherit;
+  font-family: 'IBM Plex Mono';
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+}
+
 .images {
   display: grid;
   grid-column: 1 / 4;
