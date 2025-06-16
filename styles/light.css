@@ -4,13 +4,14 @@
   переключая тему
 */
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
 .theme-light .page {
+  --background-image: url("../images/cover-image-light.png");
+  --pink-color: #ff8dcb;
+  --text-color: #353430;
+  --background-color: #fff1f7;
+  --header-color: #ffc2e6;
+  --header-colour-decor: #ff8dcb;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
+  
