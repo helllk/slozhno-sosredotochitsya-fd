@@ -4,4 +4,12 @@
 */
 :root {
   --font-family: 'IBM Plex mono';
+  --background-image: url("../images/cover-image-dark.png");
+  --pink-color: #ff0070;
+  --text-color: #f1b2ce;
+  --button-color: #ff0070;
+  --background-color: #000028;
+  --header-color: #db00ff;
+  --header-colour-decor: #ff0070;
+  --is-light: visible;
 }
