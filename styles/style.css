@@ -61,7 +61,6 @@
   margin-top: 58px;
   margin-bottom: 58px;
   font-family: 'IBM Plex Mono';
-  background-color: var(--background-color);
   padding: 0px 2px 0px 2px;
 }
 
@@ -247,7 +246,6 @@ a {
     margin-top: 58px;
     margin-bottom: 58px;
     font-family: 'IBM Plex Mono';
-    background-color: var(--background-color);
     padding: 0px 2px 0px 2px;
   }
 
@@ -399,7 +397,12 @@ a {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-top: -158px;
     margin-right: 397px;
+    position: relative;
+    top: -150px;
 }
+  .header__theme-menu {
+    background-color: transparent;
+  }
+
 }
