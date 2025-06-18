@@ -9,10 +9,19 @@
   color: var(--text-color);
   margin: 0px;
   padding: 10px;
+  position: relative;
+}
+
+.page::before {
   background-image: var(--background-image);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  z-index: -1;
 }
 
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
