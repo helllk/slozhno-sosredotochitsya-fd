@@ -91,7 +91,6 @@
     display: grid;
     grid-column: 1;
     justify-self: end;
-    margin-top: 58px;
     margin-bottom: 58px;
     font-family: var(--font-family);
     padding: 0px 2px 0px 2px;
