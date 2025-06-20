@@ -4,12 +4,11 @@
 */
 :root {
   --font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
-  --background-image: url("../images/cover-image-dark.png");
-  --pink-color: #ff0070;
-  --text-color: #f1b2ce;
-  --button-color: #ff0070;
-  --background-color: #000028;
-  --header-color: #db00ff;
-  --header-colour-decor: #ff0070;
-  --is-light: visible;
+  --background-image: url("../images/cover-image-light.png");
+  --pink-color: #ff8dcb;
+  --text-color: #353430;
+  --button-color: #353430;
+  --background-color: #fff1f7;
+  --header-color: #ffc2e6;
+  --header-colour-decor: #ff8dcb;
 }
