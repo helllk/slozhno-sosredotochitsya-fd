@@ -3,6 +3,17 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: light) { 
+  :root {  
+  --background-image: url("../images/cover-image-light.png");
+  --pink-color: #ff8dcb;
+  --text-color: #353430;
+  --button-color: #353430;
+  --background-color: #fff1f7;
+  --header-color: #ffc2e6;
+  --header-colour-decor: #ff8dcb;
+  }
+}
 
 .theme-light .page {
   --background-image: url("../images/cover-image-light.png");
@@ -15,4 +26,5 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+  
   
