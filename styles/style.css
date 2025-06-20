@@ -310,11 +310,11 @@ img {
   }
 
   .images-box  {
-    display: grid;
-    grid-template-columns: 4(229px 1fr 1fr 1fr);
-    grid-template-rows: 3(1fr 1fr auto);
-    margin: 0;
-    padding: 0;
+
+  }
+
+  img {
+    align-self: stretch;
   }
 
   .sun {
@@ -326,7 +326,7 @@ img {
 
   .ice {
     grid-column: 3;
-    grid-row: 2 / 6;
+    grid-row: 2 / 4;
     padding: 10px 0px 0px 10px;
     object-fit: cover;
     object-position: top;
@@ -335,7 +335,7 @@ img {
   .music {
     object-fit: none;
     grid-column: 1;
-    grid-row: 3 / 7;
+    grid-row: 3 / 6;
     padding: 10px 10px 0px 0px;
   }
 
