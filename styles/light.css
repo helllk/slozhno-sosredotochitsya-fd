@@ -3,6 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 @media (prefers-color-scheme: light) { 
   :root {  
   --background-image: url("../images/cover-image-light.png");
@@ -26,5 +27,17 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+@media {
+  .theme-light:root {
+  .decore_name {  
+    color: var(--background-color);
+  }
   
-  
+  .round {
+    background-color: var(--background-color);
+  }
+}
+}
+
+
+
