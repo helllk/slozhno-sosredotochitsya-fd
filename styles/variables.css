@@ -15,14 +15,14 @@
 }
 
 @media {
-  :root { 
+  :root {
   .decore_name {  
-    color: var(--background-color);
-  }
+      color: var(--background-color);
+    }
   
   .round {
     background-color: var(--background-color);
-    box-shadow: var(--button-color);
+    box-shadow: 0 0 0 0 var(--button-color);
   }
 }
 }
