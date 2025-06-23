@@ -37,6 +37,7 @@
   
   .round {
     background-color: var(--background-color);
+    box-shadow: var(--button-color)
   }
 }
 }
