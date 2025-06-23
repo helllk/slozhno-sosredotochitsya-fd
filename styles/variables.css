@@ -13,3 +13,16 @@
   --header-colour-decor: #ff8dcb;
   --question-color: #353430;
 }
+
+@media {
+  :root { 
+  .decore_name {  
+    color: var(--background-color);
+  }
+  
+  .round {
+    background-color: var(--background-color);
+    box-shadow: var(--button-color);
+  }
+}
+}
