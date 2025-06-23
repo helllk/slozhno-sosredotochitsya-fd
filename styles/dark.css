@@ -21,9 +21,11 @@
   .decore_name {  
     color: var(--button-color);
   }
+
   
   .round {
     background-color: var(--button-color);
+    box-shadow: 0 0 4px 2px var(--button-color);
   }
 }
 }
