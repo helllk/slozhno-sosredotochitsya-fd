@@ -13,6 +13,7 @@
   --header-color: #db00ff;
   --header-colour-decor: #ff0070;
   --is-light: visible;
+  --question-color: #ff0070;
 }
 
 @media {
