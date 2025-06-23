@@ -13,6 +13,7 @@
   --background-color: #fff1f7;
   --header-color: #ffc2e6;
   --header-colour-decor: #ff8dcb;
+  --question-color: #353430;
   }
 }
 
@@ -24,6 +25,7 @@
   --background-color: #fff1f7;
   --header-color: #ffc2e6;
   --header-colour-decor: #ff8dcb;
+  --question-color: #353430;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
