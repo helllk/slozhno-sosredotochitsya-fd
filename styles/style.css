@@ -379,7 +379,7 @@ img {
   .highlighting_text_bold {
     background: linear-gradient(to top, transparent 50%, var(--pink-color) 50%);
   }
-  
+
 }
 
 
@@ -391,6 +391,7 @@ img {
   .title { 
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     text-wrap: nowrap;
+    margin-bottom: 20px;
   }
 
   .images-box {
@@ -449,12 +450,12 @@ img {
     margin-top: 0;
     padding-top: 0; 
     align-self: start;
-    margin-right: 80px;
+    margin-right: 120px;
 
   }
 
   .page {
-    padding: 20px;
+    padding: 10px;
   }
 
   .decorated-zone {
@@ -498,7 +499,22 @@ img {
   grid-row: 2;
 }
 
+.highlighting_details {
+  margin-top: 40px;
+}
 .highlighting_text_bold {
   background: linear-gradient(to top, transparent 50%, var(--pink-color) 50%);
+}
+
+.highlight_theme {
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+
+.corner_left {
+margin-bottom: 40px;
+}
+.information{
+  padding-bottom: 10px;
 }
 }
