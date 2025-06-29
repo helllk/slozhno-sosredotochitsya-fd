@@ -104,6 +104,8 @@
   border-left: 2px solid var(--button-color);
   margin-top: 10px;
   margin-left: 10px;
+  margin-bottom: 50px;
+  
 }
 
 .title {
@@ -115,6 +117,7 @@
   text-shadow: 2px 2px 0 var(--header-colour-decor);
   text-wrap: wrap;
   line-height: 0.9;
+  margin-bottom: 60px;
   
 }
 
@@ -122,13 +125,14 @@
   display: grid;
   grid-row: 3;
   box-sizing: content-box;
+  margin-bottom: 100px;
 }
 
 .header__theme-menu {
   display: grid;
   grid-column: 1;
   justify-self: end;
-  margin-bottom: 58px;
+  margin-bottom: 80px;
   font-family: var(--font-family);
   padding: 0px 2px 0px 2px;
 }
@@ -196,6 +200,7 @@ a {
   background-color: var(--pink-color);
   color: #000028;
   font-weight: normal;
+  margin-top: 10px;
 }
 
 .highlighting_details {
@@ -205,6 +210,7 @@ a {
   font-family: var(--font-family);
   background-color: var(--pink-color);
   color: #000028;
+  margin-top: 10px;
 }
 
 .questions {
@@ -251,13 +257,17 @@ a {
   outline: none;
 }
 
+.image_title {
+  margin-top: 50px;
+}
+
 .images-box {
   grid-column: 1 / 4;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
   width: 100%;
   height: 100%;
-  padding: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   background-color: var(--background-color);
 }
 
@@ -271,6 +281,9 @@ img {
   background-color: var(--background-color);
 }
 
+.sun {
+  padding: 0;
+}
 .footer {
   display: grid;
   height: 100vh;
@@ -287,6 +300,10 @@ img {
   align-self: center;
 }
 
+.topic {
+  position: relative;
+  bottom: 30px;
+}
 /*@MEDIA*/
 
 /* 3*4 ipad min portrait*/
@@ -587,4 +604,9 @@ margin-bottom: 40px;
 .topic {
   top: 0;
 }
+
+.image_title {
+  margin-top: 0px;
+}
+
 }
