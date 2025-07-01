@@ -25,6 +25,8 @@
     height: 100vh;
     background-size: cover;
     z-index: -1;
+    background-position:center; 
+    background-repeat:no-repeat;
 }
 
 /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
