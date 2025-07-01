@@ -5,27 +5,27 @@
 */
 
 .theme-dark .page {
-  --background-image: url("../images/cover-image-dark.png");
-  --pink-color: #ff0070;
-  --text-color: #f1b2ce;
-  --button-color: #ff0070;
-  --background-color: #000028;
-  --header-color: #db00ff;
-  --header-colour-decor: #ff0070;
-  --is-light: visible;
-  --question-color: #ff0070;
+    --background-image: url("../images/cover-image-dark.png");
+    --pink-color: #ff0070;
+    --text-color: #f1b2ce;
+    --button-color: #ff0070;
+    --background-color: #000028;
+    --header-color: #db00ff;
+    --header-colour-decor: #ff0070;
+    --is-light: visible;
+    --question-color: #ff0070;
+    --font-size: 18px;
 }
 
 @media {
-  .theme-dark:root {
-  .decore_name {  
-    color: var(--button-color);
-  }
+    .theme-dark:root {
+        .decore_name {
+            color: var(--button-color);
+        }
 
-  
-  .round {
-    background-color: var(--button-color);
-    box-shadow: 0 0 4px 2px var(--button-color);
-  }
-}
+        .round::after {
+            background-color: var(--button-color);
+            box-shadow: 0 0 4px 2px var(--button-color);
+        }
+    }
 }
