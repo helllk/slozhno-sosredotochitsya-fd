@@ -4,43 +4,41 @@
   переключая тему
 */
 
-@media (prefers-color-scheme: light) { 
-  :root {  
-  --background-image: url("../images/cover-image-light.png");
-  --pink-color: #ff8dcb;
-  --text-color: #353430;
-  --button-color: #353430;
-  --background-color: #fff1f7;
-  --header-color: #ffc2e6;
-  --header-colour-decor: #ff8dcb;
-  --question-color: #353430;
-  }
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-image: url("../images/cover-image-light.png");
+        --pink-color: #ff8dcb;
+        --text-color: #353430;
+        --button-color: #353430;
+        --background-color: #fff1f7;
+        --header-color: #ffc2e6;
+        --header-colour-decor: #ff8dcb;
+        --question-color: #353430;
+    }
 }
 
 .theme-light .page {
-  --background-image: url("../images/cover-image-light.png");
-  --pink-color: #ff8dcb;
-  --text-color: #353430;
-  --button-color: #353430;
-  --background-color: #fff1f7;
-  --header-color: #ffc2e6;
-  --header-colour-decor: #ff8dcb;
-  --question-color: #353430;
-  /* Вам также нужно будет написать ряд подобных селекторов */
+    --background-image: url("../images/cover-image-light.png");
+    --pink-color: #ff8dcb;
+    --text-color: #353430;
+    --button-color: #353430;
+    --background-color: #fff1f7;
+    --header-color: #ffc2e6;
+    --header-colour-decor: #ff8dcb;
+    --question-color: #353430;
+    --font-size: 18px;
+    /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 @media {
-  .theme-light:root {
-  .decore_name {  
-    color: var(--background-color);
-  }
-  
-  .round {
-    background-color: var(--background-color);
-    box-shadow: 0 0 0 0 var(--button-color);
-  }
+    .theme-light:root {
+        .decore_name {
+            color: var(--background-color);
+        }
+
+        .round::after {
+            background-color: var(--background-color);
+            box-shadow: 0 0 0 0 var(--button-color);
+        }
+    }
 }
-}
-
-
-
