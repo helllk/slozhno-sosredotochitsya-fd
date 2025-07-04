@@ -492,16 +492,6 @@ img {
   margin-top: 70px;
 }
 
-.information_link {
-
-}
-
-.link {
-  display: flex;
-  display: inline-block;
-  border: none;
-  grid-column: 2;
-}
 }
 
 
@@ -646,7 +636,10 @@ img {
 }
 
 .link {
-  
+  display: inline-block;
+  border: none;
+  grid-column: 2;
 }
+
 }
 
