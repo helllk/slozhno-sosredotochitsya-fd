@@ -336,7 +336,7 @@ img {
 @media (min-width: 768px) {
   
   .main {
-  margin-block: 27px;
+  margin-block: 26px;
   }
 
   .page {
@@ -575,10 +575,6 @@ img {
     padding: 10px;
   }
 
-  .decorated-zone {
-    position: relative;
-  }
-
   .decore_box {
     position: absolute;
     top: 10px;
@@ -635,11 +631,6 @@ img {
   padding-bottom: 10px;
 }
 
-.topic {
-  position: relative;
-  bottom: 50px;
-}
-
 .image_title {
   margin-top: 0px;
 }
@@ -647,8 +638,5 @@ img {
 .questions {
   padding-bottom: 40px;
 }
+}
 
-.topic {
-  margin-top: 50px;
-}
-}
