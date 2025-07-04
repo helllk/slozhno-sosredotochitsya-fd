@@ -205,6 +205,7 @@ a {
 
 .main {
   display: grid;
+  margin-block: 25px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
   row-gap: 50px;
@@ -334,6 +335,10 @@ img {
 /* 3*4 ipad min portrait*/
 
 @media (min-width: 768px) {
+  
+  .main {
+  margin-block: 30px;
+  }
 
   .page {
     gap: 20px;
@@ -490,6 +495,10 @@ img {
 /* 4*3 ipad min landscape*/
 
 @media (min-width: 1024px) {
+  .main {
+    margin-block: 10px;
+    }
+
   .title { 
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     text-wrap: nowrap;
