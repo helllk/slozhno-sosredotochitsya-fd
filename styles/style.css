@@ -284,6 +284,7 @@ a {
   outline: none;
 }
 
+
 .image_title {
   margin-top: 50px;
 }
@@ -428,7 +429,7 @@ img {
 
   .footer {
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     box-sizing: border-box;
   }
 
@@ -445,7 +446,11 @@ img {
   }
 
   .corner_right_foot {
-    margin-top: 20px;
+    margin-top: 40px;
+  }
+
+  .corner_left_foot {
+    margin-bottom: 0px;
   }
 
   .decorated-zone {
@@ -484,7 +489,7 @@ img {
 }
 
 .image_title {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 }
