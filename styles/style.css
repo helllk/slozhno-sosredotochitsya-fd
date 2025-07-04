@@ -9,7 +9,7 @@
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 0px;
-  padding: 10px;
+  padding: 0px 10px 0px 10px;
   position: relative;
   min-height: 100vh;
 }
@@ -61,11 +61,12 @@
 }
 
 .decore_name {  
-  padding: 20px;
-  margin-left: auto;
+  padding: 10px;
+  margin-right: 20px;
   color: var(--button-color);
   font-family: var(--font-family);
   font-size: var(--font-size);
+
 }
 
 .round {
@@ -102,7 +103,7 @@
   height: 25px;
   border-top: 2px solid var(--button-color);
   border-right: 2px solid var(--button-color);
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: 10px;
 }
 
@@ -204,7 +205,6 @@ a {
 
 .main {
   display: grid;
-  margin-block: 30px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
   row-gap: 50px;
