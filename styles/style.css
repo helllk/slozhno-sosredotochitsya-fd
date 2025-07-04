@@ -492,6 +492,16 @@ img {
   margin-top: 70px;
 }
 
+.information_link {
+
+}
+
+.link {
+  display: flex;
+  display: inline-block;
+  border: none;
+  grid-column: 2;
+}
 }
 
 
@@ -618,7 +628,7 @@ img {
 
 .highlight_theme {
   margin-left: 470px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   grid-column: 2 / 3;
 }
 
@@ -627,16 +637,16 @@ img {
   margin-right: 15px;
   }
 
-.information{
-  padding-bottom: 10px;
-}
-
 .image_title {
   margin-top: 0px;
 }
 
 .questions {
   padding-bottom: 40px;
+}
+
+.link {
+  
 }
 }
 
