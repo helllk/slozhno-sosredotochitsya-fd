@@ -12,6 +12,7 @@
   padding: 0px 10px 0px 10px;
   position: relative;
   min-height: 100vh;
+  background-attachment: fixed;
 }
 
 .page::before {
@@ -50,7 +51,6 @@
   top: 0;
   left: 0;
   position: relative;
-  z-index: -1;
 }
 
 .decore_box {
@@ -104,6 +104,7 @@
   border-top: 2px solid var(--button-color);
   border-right: 2px solid var(--button-color);
   margin-top: 0px;
+  margin-right: 12px;
 }
 
 .corner_left {
@@ -126,6 +127,7 @@
 
 .corner_right_foot {
   margin-top: 0;
+  margin-right: 0;
 }
 
 .title {
@@ -137,7 +139,7 @@
   text-shadow: 2px 2px 0 var(--header-colour-decor);
   text-wrap: wrap;
   line-height: 0.9;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   
 }
 
@@ -215,6 +217,7 @@ a {
   grid-column: 1 / 4;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  bottom: 30px;
 }
 
 .highlighting_text {
@@ -325,10 +328,7 @@ img {
   align-self: center;
 }
 
-.topic {
-  position: relative;
-  bottom: 30px;
-}
+
 /*@MEDIA*/
 
 /* 3*4 ipad min portrait*/
