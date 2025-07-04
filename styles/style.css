@@ -50,12 +50,12 @@
   top: 0;
   left: 0;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .decore_box {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 10px;
   right: 0;
 }
@@ -104,7 +104,6 @@
   border-top: 2px solid var(--button-color);
   border-right: 2px solid var(--button-color);
   margin-top: 0px;
-  margin-right: 10px;
 }
 
 .corner_left {
@@ -117,12 +116,12 @@
   border-bottom: 2px solid var(--button-color);
   border-left: 2px solid var(--button-color);
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   
 }
 
 .corner_left_foot {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .corner_right_foot {
@@ -138,7 +137,7 @@
   text-shadow: 2px 2px 0 var(--header-colour-decor);
   text-wrap: wrap;
   line-height: 0.9;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   
 }
 
@@ -146,14 +145,14 @@
   display: grid;
   grid-row: 3;
   box-sizing: content-box;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .header__theme-menu {
   display: grid;
   grid-column: 1;
   justify-self: end;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   font-family: var(--font-family);
   padding: 0px 2px 0px 2px;
   position: relative;
@@ -205,7 +204,7 @@ a {
 
 .main {
   display: grid;
-  margin-block: 25px;
+  margin-block: 27px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
   row-gap: 50px;
