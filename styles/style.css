@@ -644,4 +644,7 @@ img {
         grid-column: 2;
     }
 
+    .topick_near_footer {
+        margin-bottom: 10px;
+    }
 }
