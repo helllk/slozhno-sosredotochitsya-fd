@@ -209,7 +209,7 @@ a {
   margin-block: 27px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: column;
-  row-gap: 50px;
+  row-gap: 52px;
 }
 
 .topic {
@@ -341,12 +341,13 @@ img {
 
   .page {
     gap: 20px;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 10px 0px 10px;
   }
   
   .title { 
     grid-column: 1 / 3; 
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-bottom: 0;
   }
 
   .header {
@@ -445,6 +446,10 @@ img {
     margin-bottom: 50px;
   }
 
+  .corner_left {
+    margin-bottom: 50px;
+  }
+
   .corner_right_foot {
     margin-top: 20px;
   }
@@ -467,7 +472,7 @@ img {
 
   .topic {
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     z-index: 1;
   }
 
@@ -495,7 +500,7 @@ img {
 
 @media (min-width: 1024px) {
   .main {
-    margin-block: 10px;
+    margin-block: 9px;
     }
 
   .title { 
